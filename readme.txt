@@ -1,9 +1,9 @@
 === pkgs.fun ===
 Contributors: aminulbd
 Donate link: https://pkgs.fun/donate
-Tags: marketplace, theme, plugin, wordpress, updater
+Tags: marketplace, theme, updater
 Requires at least: 2.9.0
-Tested up to: 6.2.2
+Tested up to: 6.6.2
 Stable tag: 1.0.0
 Requires PHP: 5.0
 License: GPLv2 or later

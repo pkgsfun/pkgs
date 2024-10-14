@@ -5,14 +5,12 @@
  * Description:       Offload WordPress themes and plugins to pkgs.fun
  * Version:           1.0.0
  * Requires at least: 2.9.0
- * Tested up to:      6.2.2
+ * Tested up to:      6.6.2
  * Requires PHP:      5.0
  * Author:            pkgs.fun
  * Author URI:        https://pkgs.fun/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       pkgs
- * Domain Path:       /languages
  */
 
 add_filter( 'pre_http_request', function ( $_default, $args, $url ) {
