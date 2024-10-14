@@ -13,7 +13,7 @@ This plugin will allow you to use the pkgs.fun marketplace to install themes and
 
 == Description ==
 
-This plugin will allow you to use the [pkgs.fun](https://pkgs.fun/) marketplace to install themes and plugins on your WordPress site. This plugin also replace your default WordPress plugin and theme api with [pkgs.fun](https://pkgs.fun/) api.
+This plugin will allow you to use the [pkgs.fun](https://pkgs.fun/) marketplace to install themes and plugins on your WordPress site. This plugin also replace your default WordPress plugin and theme api with [pkgs.fun](https://pkgs.fun/) APIs.
 
 == Frequently Asked Questions ==
 
@@ -25,11 +25,9 @@ As secure as the default WordPress plugin and theme api. We not collect any data
 
 Yes, As WordPress is free, pkgs.fun is also free.
 
-== Screenshots ==
+= How can I revert back to use WordPress.org APIs? =
 
-1. Search for plugins
-2. Search for themes
-3. Basic settings
+Just deactivate plugin, Also you can remove the plugin if you wish.
 
 == Changelog ==
 
