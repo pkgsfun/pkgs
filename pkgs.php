@@ -13,7 +13,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-add_filter( 'pre_http_request', function ( $_default, $args, $url ) {
+function pkgs_fun_wp_api( $_default, $args, $url ) {
 	$urls = array(
 		// plugins
 		'api.wordpress.org/plugins/info',
@@ -38,4 +38,6 @@ add_filter( 'pre_http_request', function ( $_default, $args, $url ) {
 	}
 
 	return wp_remote_request( $intercepted, $args );
-}, 10, 3 );
+}
+
+add_filter( 'pre_http_request', 'pkgs_fun_wp_api', 10, 3 );
